@@ -1,0 +1,21 @@
+{
+  "name": "twitchtvmonitor",
+  "description": "A web application to search and monitor Twitch user accounts",
+  "main": "index.js",
+  "authors": [
+    "Ugo Harry"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/UgoHarry/TwitchtvMonitor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
