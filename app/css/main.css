@@ -1,0 +1,86 @@
+body {
+  background-color: #cfbdfe; }
+
+.overlay .banner {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive; }
+
+.overlay .container {
+  background-color: #fff;
+  width: 390px;
+  margin: 0 auto;
+  padding: 0; }
+
+.tw-status ul {
+  font-size: 0;
+  width: 100%;
+  padding: 0; }
+  .tw-status ul li {
+    display: inline-block; }
+    .tw-status ul li a {
+      font-size: 20px;
+      color: #fff;
+      display: inline-block;
+      padding: 10px;
+      background-color: #8559fc;
+      margin: 0;
+      width: 130px;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.7s; }
+      .tw-status ul li a.active {
+        background-color: #cfbdfe;
+        color: #fff;
+        background-color: #422494; }
+      .tw-status ul li a:hover {
+        text-decoration: underline;
+        background-color: #422494; }
+      .tw-status ul li a:first-child {
+        border-right: 1px solid #cfbdfe;
+        border-left: 1px solid #8559fc; }
+      .tw-status ul li a:last-child {
+        border-left: 1px solid #cfbdfe; }
+
+.tw-search input[type=text] {
+  width: 340px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #cfbdfe;
+  border-radius: 5px; }
+
+.tw-channels ul li {
+  display: block;
+  height: 70px; }
+  .tw-channels ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000; }
+    .tw-channels ul li a:hover {
+      background: #e9e4f6; }
+
+.tw-channel-info {
+  display: inline-block;
+  margin-left: 15px; }
+  .tw-channel-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px; }
+  .tw-channel-info p {
+    font-size: 12px; }
+  .tw-channel-info .streamy {
+    color: #0A9600; }
+  .tw-channel-info .warning {
+    color: #F48024; }
+
+.tw-channel-logo {
+  display: inline-block;
+  margin-left: 12px;
+  width: 40px;
+  height: 34px;
+  border: 1px solid #000;
+  border-radius: 24px;
+  background-size: 40px 34px;
+  background-position: center center; }
+
+.tw-channel-status {
+  display: inline-block; }

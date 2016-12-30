@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Shade|Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Twitch TV Monitor</title>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="banner">
+            <h1>TwitchTV Monitor</h1>
+        </div>
+        <div class="container">
+            <nav class="tw-status">
+                <ul>
+                    <li><a href="#" id="stream-all" class="active">All</a></li>
+                    <li><a href="#" id="stream-online">Online</a></li>
+                    <li><a href="#" id="stream-offline">Offline</a></li>
+                </ul>
+            </nav>
+            <div class="tw-search">
+                <form class="tw-search-form">
+                    <input type="text" class="search-box">
+                </form>
+            </div>
+            <div class="tw-channels">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
