@@ -5,9 +5,9 @@ var app = express();
 app.use(express.static('dist'));
 app.use('/bower_components', express.static(__dirname+'/bower_components'));
 
-//ROUTING. IMPORTANT: TO SERVE PRODUCTION FILE, CHANGE PATH FROM 'app/' TO 'dist/'
+//ROUTING. IMPORTANT: TO SERVE PRODUCTION FILE, CHANGE PATH FROM 'app/...' TO 'dist/...'
 app.get('/', function(req,res) {
-  res.sendFile(__dirname+'/app/index.html');
+  res.sendFile(__dirname+'/dist/index.html');
 });
 
 //LAUNCH SERVER AND LISTEN ON PORT
